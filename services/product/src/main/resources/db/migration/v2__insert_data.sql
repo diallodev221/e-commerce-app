@@ -1,0 +1,27 @@
+INSERT INTO category (id, description, name) VALUES
+                                                 (1, 'Electronics devices and gadgets', 'Electronics'),
+                                                 (2, 'Home and office furniture', 'Furniture'),
+                                                 (3, 'Books across various genres', 'Books'),
+                                                 (4, 'Clothing and accessories', 'Clothing'),
+                                                 (5, 'Sports and fitness equipment', 'Sports');
+INSERT INTO product (id, description, name, available_quantity, price, category_id) VALUES
+                                                                                        (1, 'Smartphone with 64GB storage', 'Smartphone', 50, 299.99, 1),
+                                                                                        (2, '4K Ultra HD Smart TV', 'Smart TV', 20, 799.99, 1),
+                                                                                        (3, 'Noise-canceling headphones', 'Headphones', 100, 199.99, 1),
+                                                                                        (4, 'Bluetooth speaker', 'Speaker', 150, 49.99, 1),
+                                                                                        (5, 'Laptop with 16GB RAM', 'Laptop', 30, 999.99, 1),
+                                                                                        (6, 'Ergonomic office chair', 'Office Chair', 40, 149.99, 2),
+                                                                                        (7, 'Wooden dining table', 'Dining Table', 10, 499.99, 2),
+                                                                                        (8, 'Bookshelf with 5 tiers', 'Bookshelf', 25, 89.99, 2),
+                                                                                        (9, 'Recliner sofa', 'Sofa', 15, 699.99, 2),
+                                                                                        (10, 'Office desk with drawers', 'Office Desk', 20, 299.99, 2),
+                                                                                        (11, 'Science fiction novel', 'Sci-Fi Book', 200, 14.99, 3),
+                                                                                        (12, 'Mystery thriller book', 'Thriller Book', 150, 12.99, 3),
+                                                                                        (13, 'Historical fiction novel', 'Historical Fiction', 100, 18.99, 3),
+                                                                                        (14, 'Children story book', 'Children Book', 250, 9.99, 3),
+                                                                                        (15, 'Self-help motivational book', 'Self-Help Book', 300, 16.99, 3),
+                                                                                        (16, 'Cotton T-shirt', 'T-shirt', 500, 19.99, 4),
+                                                                                        (17, 'Denim jeans', 'Jeans', 300, 39.99, 4),
+                                                                                        (18, 'Leather jacket', 'Jacket', 50, 129.99, 4),
+                                                                                        (19, 'Running shoes', 'Shoes', 200, 59.99, 4),
+                                                                                        (20, 'Baseball cap', 'Cap', 400, 14.99, 4);
